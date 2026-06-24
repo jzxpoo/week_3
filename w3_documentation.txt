@@ -1,0 +1,18 @@
+1.1 what are the inputs?
+
+quiz 1 mark
+quiz 2 mark
+quiz 3 mark
+
+1.2 what is the process?
+
+Read the three quiz marks.
+calculate the average
+compare the average with the passing mark (50)
+display Pass if its above or = to average, otherwise Fail 
+Ask wether another students mark should be entered
+
+1.3 What is the output
+
+average mark
+Pass or Fail result 

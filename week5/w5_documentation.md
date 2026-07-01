@@ -50,18 +50,16 @@ START
 PRINT "Enter customer name:"
 INPUT customer_name
 PRINT "Enter coffee quantity:"
-INPUT coffee_qty
-PRINT "Enter tea quantity:"
-INPUT tea_qty
+INPUT coffee_quantity
+PRINT "Enter tea quantity:"gi
+INPUT tea_quantity
 PRINT "Enter sandwich quantity:"
-INPUT sandwich_qty
-
-total = (coffee_qty * 8.50) + (tea_qty * 6.00) + (sandwich_qty * 12.00)
-
+INPUT sandwich_quantity
+total = (coffee quantity * 8.50) + (tea quantity * 6.00) + (sandwich quantity * 12.00)
 PRINT "========== RECEIPT =========="
 PRINT "Customer : " + customer_name
-PRINT "Coffee : " + coffee_qty
-PRINT "Tea : " + tea_qty
-PRINT "Sandwich : " + sandwich_qty
+PRINT "Coffee : " + coffee_quantity
+PRINT "Tea : " + tea_quantity
+PRINT "Sandwich : " + sandwich_quantity
 PRINT "TOTAL = RM " + total
 END

@@ -18,8 +18,7 @@ def calculate_total(coffee_qty, tea_qty, sandwich_qty):
     TEA_PRICE = 6.00     # Price per tea in RM
     SANDWICH_PRICE = 12.00  # Price per sandwich in RM
     
-    # Calculate total by multiplying quantity by price for each item
-    # and then adding them all together
+    # Calculate total by multiplying quantity by price for each item 
     total_coffee = coffee_qty * COFFEE_PRICE
     total_tea = tea_qty * TEA_PRICE
     total_sandwich = sandwich_qty * SANDWICH_PRICE
